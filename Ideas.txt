@@ -1,0 +1,53 @@
+On Load
+    Populate Races
+        function to make a list of type Race
+            Populate Subraces
+    Populate Classes
+        function to make a list of type DnDClass
+
+
+Should races, classes, etc be objects or methods that operate on variables in character?
+
+
+Character (Should compile Languages, Proficiencies, Resistances into a character level list)
+    Name
+    Stats
+        str
+        dex
+        con
+        int
+        wis
+        cha
+    Race
+        size
+        racial ability Score increase
+        speed
+        Racial Languages (push into character languages)
+        Subrace (could be null)
+            subrace ability Score improvement
+            subrace abilities
+            Proficiencies
+            Languages
+
+        Racial Traits (could be difficult to achieve without further splitting up)
+        Racial abilities
+        Resistances (push into character resistances)
+        Proficiencies (Split further? combat, noncombat, skill maybe. Also push to character level)
+    Class(es)
+        class level
+        Hit dice
+        Class Proficiencies (push to class)
+        Saving throws (Push to character level)
+        class abilities
+        resistances
+    Total Level
+        proficiency bonus
+    Background
+        Proficiencies
+        equipment
+        ability
+
+    HP
+    Items
+
+Races -> Race -> Subrace
